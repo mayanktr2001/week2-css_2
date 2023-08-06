@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 2px 2px 1px black;
+    /* text-shadow: 3px 4px 2px red,5px 5px 5px greenyellow; */
+    
+}
+/* horizontal/vertical/blur  */
+.box{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 1px 1px black;
+    
+}

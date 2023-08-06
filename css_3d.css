@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid black;
+}
+#box2{
+    transform: perspective(50px) translateZ(-20px);
+}
+#box3{
+    margin: 40px;
+    transform: perspective(400px) scaleZ(2) rotatex(30deg) rotateY(20deg);
+
+    
+}

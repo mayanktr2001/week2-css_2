@@ -1,0 +1,50 @@
+<!-- static -BY DEFAULT PROPERTY
+relative -element moves relative to its original position
+fixed-is fixed to the relative to the viewport
+absolute-nearest position ancestor,if no position ancestor then ot will be postioned realtive to document body
+sticky -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.position{
+    position: relative;
+
+    }
+    
+    img{
+        
+        width: 500px;
+        height: 500px;
+        
+    }
+    .top_right{
+        position: absolute;
+        top:1%; 
+        left:62%;
+        
+    }
+    .topleft{
+        position: absolute;
+        top: 1%;
+
+        
+    }
+    .centre{
+position: absolute;
+top: 50%;
+left: 30%;
+    }
+</style>
+<body>
+   <div class="position"><img src="my-passport-photo.jpg" alt="">
+<div class="top_right">hello</div>
+<div class="topleft">hello</div>
+<div class="centre">hello</div>
+ </div>
+</body>
+</html>

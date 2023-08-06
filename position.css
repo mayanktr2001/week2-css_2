@@ -1,0 +1,29 @@
+
+div{ display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+#box3{
+    position: relative;
+    top: 20px;
+    right: 60px;
+}
+/* #box1{
+    position: fixed;
+} */
+.big{
+    background-color: violet;
+    width: 100vw;
+    height: 2000px;
+}
+#box4{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+#box2{
+    position: sticky;
+    top: 2px;
+}
